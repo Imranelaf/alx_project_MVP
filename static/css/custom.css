@@ -1,0 +1,185 @@
+.card:hover {
+    border-color: #999;
+    box-shadow: 1px 2px #999;
+}
+
+.card {
+    margin-bottom: 1em;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.price {
+    color: seagreen;
+    font-weight: bold;    
+}
+
+.price:before {
+    content: '$';
+}
+
+.shirt {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.stepper-input{
+    display: flex;
+    display: -webkit-flex;
+    color: #222;
+    max-width: 120px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.shirtCart {
+    width: 25px;
+}
+
+.add {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.checkout {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.add:hover {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+tr {
+    text-align: center;
+}
+
+.modal-header {
+    border-bottom: 0px;
+}
+
+.counter {
+    font-size: 0.6em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+
+.increment,
+.decrement{
+        height: 24px;
+        width: 24px;
+        border: 1px solid #222;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 50%;
+        text-decoration: none;
+        color: #222;
+        font-size: 24px;
+        line-height: 22px;
+        display: inline-block;
+        cursor: pointer;             
+    }
+
+.decrement:hover, 
+.increment:hover {
+    color: green;  
+}
+
+.decrement:active, 
+.increment:active {    
+    background-color: green; 
+    color: white;  
+}
+
+
+.quantity{
+        height: 24px;
+        width: 48px;
+        text-align: center;
+        margin: 0 12px;
+        border-radius: 2px;
+        border: 1px solid #222;
+        
+}
+
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background: linear-gradient(to right, rgb(246, 222, 222), rgb(15, 15, 67));
+}
+
+
+.bg-dark {
+    color:#222;
+    box-shadow: 2px 2px 4px;
+    background-color: rgba(1, 6, 19, 0.4)!important;
+    backdrop-filter: blur(8px);
+}
+
+/* media query for screens with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 50%;
+        margin-left:25%;
+    }
+
+    .shirt {
+        width: 100px; 
+        height: 100px;
+     
+    }
+    
+    .navbar {
+        height:80px;    
+    }
+
+    .nav-item {
+        font-size:smaller;
+        color:black;
+        margin-left:60px;
+        
+    }
+
+    .navbar-brand {
+        width:50px;
+    }
+    .navbar-brand strong{
+        font-size:small;
+        width:30px;
+    }
+
+    .navbar-toggler{
+        width:100%;
+        color:black;
+        font-size:small;
+
+}
+
+    .dropdown{
+        position:absolute;
+        margin-left:140px;
+}
+    .col-sm{
+        margin-top:20px;
+}
+
+    .alert {
+        font-size:smaller;
+
+    }
+}
+
